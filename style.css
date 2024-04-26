@@ -89,8 +89,8 @@ hr{
 }
 @media screen and (max-width:600px) {
     .form{
-        height: 460px;
-        width: 400px;
+        height: 400px;
+        width: 350px;
         background-color: rgb(255, 255, 255,0.5);
         border-radius: 15px;
         backdrop-filter: blur(10px);
@@ -105,7 +105,7 @@ hr{
         background:linear-gradient(to right,#004cff,rgb(64, 218, 187),#8d0fd2);
         justify-content: center;
         align-items: center;
-        height: 680px;
+        height: 900px;
         transition: bg-color 5s;  
     }
     .text1{
