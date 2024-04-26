@@ -4,13 +4,13 @@
 }
 .container{
     display: flex;
-    background:linear-gradient(to right,#004cff,rgb(64, 218, 187),#8d0fd2);
     justify-content: center;
     align-items: center;
     height: 780px;
-    transition: bg-color 5s;
-
-    
+    transition: bg-color 5s;   
+}
+body{
+    background:linear-gradient(to right,#004cff,rgb(64, 218, 187),#8d0fd2);
 }
 
 
