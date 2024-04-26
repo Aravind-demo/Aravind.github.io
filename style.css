@@ -79,8 +79,74 @@ input[type="text"],input[type="email"],input[type="password"]{
     text-decoration: none;
     color: #004cff;
 }
+.lnk1:hover{
+    text-decoration: underline;
+}
 hr{
     border: 0;
     height: 1px;
     background-color: black;
+}
+@media screen and (max-width:600px) {
+    .form{
+        height: 460px;
+        width: 400px;
+        background-color: rgb(255, 255, 255,0.5);
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+    }
+    .show{
+        text-align: end;
+        margin-right: 10px;
+        margin-top: 7px;
+    }
+    .container{
+        display: flex;
+        background:linear-gradient(to right,#004cff,rgb(64, 218, 187),#8d0fd2);
+        justify-content: center;
+        align-items: center;
+        height: 680px;
+        transition: bg-color 5s;  
+    }
+    .text1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight:100px;
+        font-style: normal;
+        text-shadow: 1px 1px 1px black;
+    }
+    input[type="text"],input[type="email"],input[type="password"]{
+        border: none;
+        border-bottom: 2px solid #ccc;
+        padding: 10px;
+        width: 320px;
+        margin-top: 23px;
+        background: none;
+        font-size: 8px;
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: normal
+    }
+    .btn1{
+        margin-top: 13px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 1px 2px 3px 1px black;
+        transition: all 0.5s;
+       background-color:  #fffcfc;
+    }
+    .lnk1{
+        text-decoration: none;
+        color: #004cff;
+        font-size: 14px;
+    }
+    .login{
+        font-size: 14px;
+    }
 }
